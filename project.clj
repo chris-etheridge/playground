@@ -10,8 +10,6 @@
                  [org.clojure/clojurescript "1.8.51"]
                  [org.clojure/core.async "0.2.374"
                   :exclusions [org.clojure/tools.reader]]
-                 [com.datomic/datomic-pro "0.9.5206"
-                  :exclusions [joda-time]]
                  [enlive "1.1.6"]
                  [compojure "1.5.0"]
                  [datascript "0.15.0"]
