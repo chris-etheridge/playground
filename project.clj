@@ -27,8 +27,6 @@
               [{:id "dev"
                 :source-paths ["src"]
 
-                :figwheel {:on-jsload "playground.core/on-js-reload"}
-
                 :compiler {:main playground.core
                            :asset-path "js/compiled/out"
                            :output-to "resources/public/js/compiled/playground.js"
@@ -46,6 +44,4 @@
   :profiles {:dev {:dependencies [[figwheel-sidecar "0.5.3"]
                                   [com.cemerick/piggieback "0.2.1"]]
                    :repl-options {:init (set! *print-length* 50)
-                                  :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}}
-
-)
+                                  :nrepl-middleware [cemerick.piggieback/wrap-cljs-repl]}}})
