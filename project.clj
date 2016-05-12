@@ -30,7 +30,7 @@
   :cljsbuild {:builds
               [{:id "dev"
                 :source-paths ["src"]
-
+                :figwheel true
                 :compiler {:main playground.core
                            :asset-path "js/compiled/out"
                            :output-to "resources/public/js/compiled/playground.js"

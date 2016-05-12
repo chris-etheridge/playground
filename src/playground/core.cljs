@@ -6,7 +6,11 @@
 (def *app-state (atom {:app/title "Animals"
                        :animals/list [[1 "Ant"] [2 "Antelope"] [3 "Bird"] [4 "Cat"]
                                       [5 "Dog"] [6 "Lion"] [7 "Mouse"] [8 "Monkey"]
-                                      [9 "Snake"] [10 "Zebra"]]}))
+                                      [9 "Snake"] [10 "Zebra"] [11 "Bird"]]
+                       :app/items [{:name "milk" :quantity 5}
+                                   {:name "eggs" :quantity 10}
+                                   {:name "carrots" :quantity 25}
+                                   {:name "celery" :quantity 10}]}))
 
 ;; multimethod for our read functions
 (defmulti read (fn [env key params] key))
@@ -26,13 +30,25 @@
   ;; index, of another vector
   {:value (subvec (:animals/list @state) start end)})
 
+(defmethod read :app/items
+  [{:keys [state] :as env} key {:keys [start end]}]
+  {:value (:app/items @state)})
+
+(defn mutate [{:keys [state] :as env} key params]
+  (js/console.log (str key))
+  (js/console.log state)
+  (if (= 'set-quantity key)
+    {:value {:keys [:value]}
+     :action #(swap! state assoc % (:value params))}
+    {:value :not-found}))
+
 (defui AnimalsList
   ;; this passes in params into our query
   ;; we pass in 0 and 10 as the start / end params
   static om/IQueryParams
   (params [this]
           ;; start / end controls how many animals to show
-          {:start 0 :end 10})
+          {:start 0 :end 11})
   static om/IQuery
   (query [this]
          ;; we define what we want to query
@@ -47,13 +63,41 @@
             (dom/div nil
                      (dom/h2 nil title)
                      (apply dom/ul nil
-                           (map (fn [[i name]]
-                                  (dom/li nil (str i "." name)))
-                                list))))))
+                            (map (fn [[i name]]
+                                   (dom/li nil (str i "." name)))
+                                 list))))))
+
+(defui ItemsList
+  static om/IQuery
+  (query [this]
+         '[:app/items])
+  Object
+  (render [this]
+          (let [{:keys [app/items] :as t} (om/props this)]
+            (dom/div nil
+                     (dom/h2 nil "Items")
+                     (apply dom/ul nil
+                            (map (fn [item]
+                                   (dom/li nil
+                                           (:name item)
+                                           (dom/input
+                                             #js {:value (:quantity item)
+                                                  :onChange #(om/transact! this '[(set-quantity {:value ~(.. % -target -value)})])})))
+                                 items))
+                     (dom/h2 nil "Items 2")
+                     (apply dom/ul nil
+                            (map (fn [item]
+                                   (dom/li nil
+                                           (:name item)
+                                           (dom/input
+                                             #js {:value (:quantity item)
+                                                  :onChange #(om/transact! this '[(set-quantity {:value ~(.. % -valuetarget -value)})])})))
+                                 items))))))
 
 (def reconciler (om/reconciler {:state *app-state
-                                :parser (om/parser {:read read})}))
+                                :parser (om/parser {:read read
+                                                    :mutate mutate})}))
 
 (om/add-root! reconciler
-              AnimalsList
+              ItemsList
               (gdom/getElement "app"))
