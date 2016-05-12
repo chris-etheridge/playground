@@ -7,10 +7,10 @@
                        :animals/list [[1 "Ant"] [2 "Antelope"] [3 "Bird"] [4 "Cat"]
                                       [5 "Dog"] [6 "Lion"] [7 "Mouse"] [8 "Monkey"]
                                       [9 "Snake"] [10 "Zebra"] [11 "Bird"]]
-                       :app/items [{:name "milk" :quantity 5}
-                                   {:name "eggs" :quantity 10}
-                                   {:name "carrots" :quantity 25}
-                                   {:name "celery" :quantity 10}]}))
+                       :app/items {1 {:name "milk" :quantity 5}
+                                   2 {:name "eggs" :quantity 10}
+                                   3 {:name "carrots" :quantity 25}
+                                   4 {:name "celery" :quantity 10}}}))
 
 ;; multimethod for our read functions
 (defmulti read (fn [env key params] key))
@@ -35,11 +35,9 @@
   {:value (:app/items @state)})
 
 (defn mutate [{:keys [state] :as env} key params]
-  (js/console.log (str key))
-  (js/console.log state)
   (if (= 'set-quantity key)
-    {:value {:keys [:value]}
-     :action #(swap! state assoc % (:value params))}
+    {:value {:keys [:quantity]}
+     :action #(swap! state assoc-in [:app/items (:path params) :quantity] % (:value params))}
     {:value :not-found}))
 
 (defui AnimalsList
@@ -77,21 +75,13 @@
             (dom/div nil
                      (dom/h2 nil "Items")
                      (apply dom/ul nil
-                            (map (fn [item]
+                            (map (fn [[i {:keys [name quantity]}]]
                                    (dom/li nil
-                                           (:name item)
+                                           name i
                                            (dom/input
-                                             #js {:value (:quantity item)
-                                                  :onChange #(om/transact! this '[(set-quantity {:value ~(.. % -target -value)})])})))
-                                 items))
-                     (dom/h2 nil "Items 2")
-                     (apply dom/ul nil
-                            (map (fn [item]
-                                   (dom/li nil
-                                           (:name item)
-                                           (dom/input
-                                             #js {:value (:quantity item)
-                                                  :onChange #(om/transact! this '[(set-quantity {:value ~(.. % -valuetarget -value)})])})))
+                                             #js {:value quantity
+                                                  :onChange #(om/transact! this `[(set-quantity {:value ~(.. % -target -value)
+                                                                                                 :path ~i})])})))
                                  items))))))
 
 (def reconciler (om/reconciler {:state *app-state
