@@ -13,11 +13,6 @@
                  [enlive "1.1.6"]
                  [compojure "1.5.0"]
                  [datascript "0.15.0"]
-                 [org.omcljs/om "1.0.0-alpha34"]
-                 [io.pedestal/pedestal.service       "0.4.1"]
-                 [io.pedestal/pedestal.jetty         "0.4.1"]
-                 [io.pedestal/pedestal.immutant      "0.4.1"]
-                 [io.pedestal/pedestal.tomcat        "0.4.1"]
                  [com.cognitect/transit-clj "0.8.285"]]
 
   :plugins [[lein-figwheel "0.5.3"]
