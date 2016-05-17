@@ -13,7 +13,8 @@
                  [compojure "1.5.0"]
                  [environ "1.0.2"]
                  [rum "0.8.3"]
-                 [datascript "0.15.0"]]
+                 [datascript "0.15.0"]
+                 [org.clojure/core.async "0.2.374"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]]
