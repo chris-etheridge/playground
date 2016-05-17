@@ -1,0 +1,14 @@
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.22 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.212 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.163 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.152 seconds.[0m

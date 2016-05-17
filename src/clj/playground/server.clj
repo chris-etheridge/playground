@@ -1,4 +1,4 @@
-(ns mememe.server
+(ns playground.server
   (:require [clojure.java.io :as io]
             [compojure.core :refer [ANY GET PUT POST DELETE defroutes]]
             [compojure.route :refer [resources]]

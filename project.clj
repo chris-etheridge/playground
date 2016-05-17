@@ -1,4 +1,4 @@
-(defproject mememe "0.1.0-SNAPSHOT"
+(defproject playgrond "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
@@ -12,7 +12,8 @@
                  [ring.middleware.logger "0.5.0"]
                  [compojure "1.5.0"]
                  [environ "1.0.2"]
-                 [org.omcljs/om "1.0.0-alpha31"]]
+                 [rum "0.8.3"]
+                 [datascript "0.15.0"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]]
@@ -25,10 +26,10 @@
 
   :clean-targets ^{:protect false} [:target-path :compile-path "resources/public/js"]
 
-  :uberjar-name "mememe.jar"
+  :uberjar-name "playground.jar"
 
   ;; Use `lein run` if you just want to start a HTTP server, without figwheel
-  :main mememe.server
+  :main playground.server
 
   ;; nREPL by default starts in the :main namespace, we want to start in `user`
   ;; because that's where our development helper functions like (run) and
@@ -43,9 +44,9 @@
                 ;; Alternatively, you can configure a function to run every time figwheel reloads.
                 ;; :figwheel {:on-jsload "mememe.core/on-figwheel-reload"}
 
-                :compiler {:main mememe.core
+                :compiler {:main playground.core
                            :asset-path "js/compiled/out"
-                           :output-to "resources/public/js/compiled/mememe.js"
+                           :output-to "resources/public/js/compiled/playground.js"
                            :output-dir "resources/public/js/compiled/out"
                            :source-map-timestamp true}}}}
 
@@ -99,7 +100,7 @@
                            {:source-paths ["src/cljs" "test/cljs"]
                             :compiler
                             {:output-to "resources/public/js/compiled/testable.js"
-                             :main mememe.test-runner
+                             :main playground.test-runner
                              :optimizations :none}}}}}
 
              :uberjar
