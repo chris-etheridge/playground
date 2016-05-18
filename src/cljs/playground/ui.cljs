@@ -7,9 +7,3 @@
             [goog.string]
             [goog.string.format]))
 
-
-
-;; mounting
-
-(defn mount [conn bus]
-  (rum/mount (window conn event-bus) js/document.body))
