@@ -166,3 +166,20 @@ notifying browser that file changed:  out/playground/core.js
 [0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.246 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: No such namespace: datascript-chat.util, could not locate datascript_chat/util.cljs, datascript_chat/util.cljc, or Closure namespace "datascript-chat.util" in file src/cljs/playground/ui.cljs on file null, line null, column null
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.614 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/ui.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.388 seconds.[0m
+[0mCompiling "resources/public/js/compiled/devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/devcards.js
+[32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 0.437 seconds.[0m
+[0mCompiling "resources/public/js/compiled/devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/devcards/devcards.js
+[32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 0.253 seconds.[0m
