@@ -18,7 +18,8 @@
                  [devcards "0.2.1"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
-            [lein-environ "1.0.1"]]
+            [lein-environ "1.0.1"]
+            [lein-scss "0.2.4"]]
 
   :min-lein-version "2.6.1"
 
@@ -52,8 +53,14 @@
                                    :source-map-timestamp true}}]}
 
   :figwheel {:css-dirs ["resources/public/css"]  ;; watch and update CSS
-              :ring-handler user/http-handler
-              :server-logfile "log/figwheel.log"}
+             :ring-handler user/http-handler
+             :server-logfile "log/figwheel.log"}
+
+  :scss {:builds
+         {:develop {:source-dir "scss/"
+                    :dest-dir   "public/css/"
+                    :executable "sassc"
+                    :args       ["-m" "-I" "scss/" "-t" "nested"]}}}
 
   :doo {:build "test"}
 
