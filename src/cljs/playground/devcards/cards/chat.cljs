@@ -15,6 +15,7 @@
                        :user/name "Chris Etheridge"
                        :user/active true}))
 
+;;; event bus management
 (def event-bus (async/chan 0))
 
 (defn next-msg-id []
@@ -51,6 +52,8 @@
 
 (parse-chan! :events-chan event-bus)
 
+;;; components
+
 (rum/defc message [[id msg]]
   (prn msg)
   (let [user (:user/name msg)
@@ -80,6 +83,7 @@
     [:#chat-pane
      (map message msgs)]))
 
+;;; devcards
 (defcard one-message
   "1 chat message, with no state."
   (message (first (:messages @*app-state))))
