@@ -1773,3 +1773,12 @@ notifying browser that file changed:  out/playground/chat/db/core.js
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  out/playground/chat/db/util.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.246 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/db/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.25 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/db/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.175 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.429 seconds.[0m

@@ -2,10 +2,7 @@
   (:require [datascript.core :as d]
             [cljs.core.async :as async]))
 
-(enable-console-print!)
-
 ;; schema
-
 (def schema {;; message schema
               :message/text {}
               :message/timestamp {}
