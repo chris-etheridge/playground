@@ -212,3 +212,19 @@
 [2016-05-24 11:01:26,024][INFO][onelog.core] [36mStarting [0m:get / for 0:0:0:0:0:0:0:1 {"accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-encoding" "gzip, deflate, sdch", "accept-language" "en-GB,en-US;q=0.8,en;q=0.6", "connection" "keep-alive", "host" "localhost:3449", "upgrade-insecure-requests" "1", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"}
 [2016-05-24 11:01:26,024][DEBUG][onelog.core] Request details: {:server-port 3449, :server-name "localhost", :remote-addr "0:0:0:0:0:0:0:1", :uri "/", :query-string nil, :scheme :http, :request-method :get, :content-length 0, :character-encoding "utf8"}
 [2016-05-24 11:01:26,024][INFO][onelog.core] [36mFinished [0m:get / for 0:0:0:0:0:0:0:1 in (1 ms) Status: [39m200[0m
+[2016-05-24 14:30:02,938][DEBUG][org.eclipse.jetty.util.log] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[2016-05-24 14:30:02,944][INFO][org.eclipse.jetty.util.log] Logging initialized @3566ms
+[2016-05-24 14:45:50,534][DEBUG][org.eclipse.jetty.util.log] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[2016-05-24 14:45:50,538][INFO][org.eclipse.jetty.util.log] Logging initialized @3223ms
+[2016-05-24 14:46:08,474][INFO][onelog.core] [36mStarting [0m:get / for 0:0:0:0:0:0:0:1 {"accept" "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", "accept-encoding" "gzip, deflate, sdch", "accept-language" "en-GB,en-US;q=0.8,en;q=0.6", "connection" "keep-alive", "host" "localhost:3449", "upgrade-insecure-requests" "1", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"}
+[2016-05-24 14:46:08,475][DEBUG][onelog.core] Request details: {:server-port 3449, :server-name "localhost", :remote-addr "0:0:0:0:0:0:0:1", :uri "/", :query-string nil, :scheme :http, :request-method :get, :content-length 0, :character-encoding "utf8"}
+[2016-05-24 14:46:08,480][INFO][onelog.core] [36mFinished [0m:get / for 0:0:0:0:0:0:0:1 in (8 ms) Status: [39m200[0m
+[2016-05-24 14:46:09,488][INFO][onelog.core] [36mStarting [0m:get /favicon.ico for 0:0:0:0:0:0:0:1 {"accept" "*/*", "accept-encoding" "gzip, deflate, sdch", "accept-language" "en-GB,en-US;q=0.8,en;q=0.6", "connection" "keep-alive", "host" "localhost:3449", "referer" "http://localhost:3449/", "user-agent" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"}
+[2016-05-24 14:46:09,488][DEBUG][onelog.core] Request details: {:server-port 3449, :server-name "localhost", :remote-addr "0:0:0:0:0:0:0:1", :uri "/favicon.ico", :query-string nil, :scheme :http, :request-method :get, :content-length 0, :character-encoding "utf8"}
+[2016-05-24 14:46:09,488][INFO][onelog.core] [36mFinished [0m:get /favicon.ico for 0:0:0:0:0:0:0:1 in (1 ms) Status: ???
+[2016-05-24 14:51:25,740][DEBUG][org.eclipse.jetty.util.log] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[2016-05-24 14:51:25,745][INFO][org.eclipse.jetty.util.log] Logging initialized @3500ms
+[2016-05-24 14:52:10,097][DEBUG][org.eclipse.jetty.util.log] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[2016-05-24 14:52:10,102][INFO][org.eclipse.jetty.util.log] Logging initialized @3246ms
+[2016-05-24 15:01:43,447][DEBUG][org.eclipse.jetty.util.log] Logging to org.slf4j.impl.Log4jLoggerAdapter(org.eclipse.jetty.util.log) via org.eclipse.jetty.util.log.Slf4jLog
+[2016-05-24 15:01:43,451][INFO][org.eclipse.jetty.util.log] Logging initialized @3209ms

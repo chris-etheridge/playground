@@ -1868,3 +1868,154 @@ sending changed CSS file: resources/public/css/chat.css
 notifying browser that file changed:  out/playground/chat/ui/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.325 seconds.[0m
 sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.895 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [] at line 1 src/cljs/playground/chat/ui/util.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.048 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 1.023 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.512 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.404 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.455 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.382 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.349 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Parameter declaration missing at line 18 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 18, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.119 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.388 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.332 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.491 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.37 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.341 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.336 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Unknown dot form of (. nil getItem nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()] at line 15 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 15, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.127 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Unknown dot form of (. nil -localStorage nil) with classification [:cljs.analyzer/error :cljs.analyzer/property ()] at line 15 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 15, column 13
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.147 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.324 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Unknown dot form of (. nil putItem nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()] at line 19 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 19, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.122 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.374 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.337 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.373 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.34 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.179 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.343 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.355 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Unknown dot form of (. nil nil nil) with classification [:cljs.analyzer/error :cljs.analyzer/error ()] at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 23, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.104 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.433 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.731 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (0) passed to cognitect.transit/write at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.476 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Invalid token: : on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs, line 27, column 22
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.143 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.48 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.504 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.util/to-local-storate at line 28 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.371 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to cognitect.transit/write at line 28 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/util.cljs
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.377 seconds.[0m

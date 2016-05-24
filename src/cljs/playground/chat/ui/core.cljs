@@ -6,19 +6,19 @@
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 ;; local temp state
-(def *app-state (atom {:messages {1 {:msg "Hello, world!"
-                                     :user/name "Chris"
-                                     :user/id 5}
-                                  2 {:msg "Good bye, world!"
-                                     :user/name "Tim"
-                                     :user/id 10}
-                                  3 {:msg "Nice memes."
-                                     :user/name "Reggie"
-                                     :user/id 15}}
-                       :user/name "Chris Etheridge"
+(def *app-state (atom {:messages    {1 {:msg       "Hello, world!"
+                                        :user/name "Chris"
+                                        :user/id   5}
+                                     2 {:msg       "Good bye, world!"
+                                        :user/name "Tim"
+                                        :user/id   10}
+                                     3 {:msg       "Nice memes."
+                                        :user/name "Reggie"
+                                        :user/id   15}}
+                       :user/name   "Chris Etheridge"
                        :user/active true
                        ;; me is my current ID
-                       :user/me 5}))
+                       :user/me     5}))
 
 ;;; event bus management
 (def event-bus (async/chan 0))
@@ -33,10 +33,10 @@
   (:user/me @*app-state))
 
 (defn send-msg [chan text]
-  (let [payload {:message {:id (next-msg-id)
+  (let [payload {:message {:id        (next-msg-id)
                            :user/name (rand-nth names)
-                           :user/id (me)
-                           :msg text}}]
+                           :user/id   (me)
+                           :msg       text}}]
     (prn payload)
     (async/put! chan [:msg-send payload])))
 
@@ -54,8 +54,8 @@
 (defmethod action! :msg-send [[_ payload]]
   (swap! *app-state assoc-in [:messages (get-in payload [:message :id])]
          {:user/name (get-in payload [:message :user/name])
-          :msg (get-in payload [:message :msg])
-          :user/id (get-in payload [:message :user/id])}))
+          :msg       (get-in payload [:message :msg])
+          :user/id   (get-in payload [:message :user/id])}))
 
 (defn parse-chan! [name chan]
   (go (loop []
@@ -79,7 +79,7 @@
    [:.form-group
     [:textarea.compose__text__area.form-control
      {:placeholder "Reply..."
-      :auto-focus true
+      :auto-focus  true
       :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]]])
 
 (rum/defc chat-pane < rum/reactive [msgs-ref user-ref]
@@ -99,6 +99,7 @@
                 (rum/cursor *app-state [:user/me]))]
     [:.row(compose-pane event-bus)]]])
 
+;; mounts the main window on the specified element
 (defn start! [element]
   (rum/mount (window event-bus)
              element))

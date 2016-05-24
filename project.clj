@@ -2,7 +2,7 @@
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+            :url  "http://www.eclipse.org/legal/epl-v10.html"}
 
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.8.40" :scope "provided"]
@@ -14,6 +14,7 @@
                  [environ "1.0.2"]
                  [rum "0.8.3"]
                  [datascript "0.15.0"]
+                 [com.cognitect/transit-cljs "0.8.237"]
                  [org.clojure/core.async "0.2.374"]
                  [devcards "0.2.1"]]
 
@@ -35,26 +36,27 @@
 
   :repl-options {:init-ns user}
 
-  :cljsbuild {:builds [{:id "devcards"
+  :cljsbuild {:builds [{:id           "devcards"
                         :source-paths ["src/cljs"]
-                        :figwheel {:devcards true}
-                        :compiler {:main playground.devcards.devcards
-                                   :asset-path "js/compiled/out"
-                                   :output-to "resources/public/js/compiled/devcards.js"
-                                   :output-dir "resources/public/js/compiled/out"
-                                   :source-map-timestamp true}}
-                       {:id "dev"
+                        :figwheel     {:devcards true}
+                        :compiler     {:main                 playground.devcards.devcards
+                                       :asset-path           "js/compiled/out"
+                                       :output-to            "resources/public/js/compiled/devcards.js"
+                                       :output-dir           "resources/public/js/compiled/out"
+                                       :source-map-timestamp true}}
+                       {:id           "dev"
                         :source-paths ["src/cljs"]
-                        :figwheel true
-                        :compiler {:main playground.chat.core
-                                   :asset-path "js/compiled/out"
-                                   :output-to "resources/public/js/compiled/playground.js"
-                                   :output-dir "resources/public/js/compiled/out"
-                                   :source-map-timestamp true}}]}
+                        :figwheel     true
+                        :compiler     {:main                 playground.chat.core
+                                       :asset-path           "js/compiled/out"
+                                       :output-to            "resources/public/js/compiled/playground.js"
+                                       :output-dir           "resources/public/js/compiled/out"
+                                       :source-map-timestamp true}}]}
 
-  :figwheel {:css-dirs ["resources/public/css"]  ;; watch and update CSS
-             :ring-handler user/http-handler
-             :server-logfile "log/figwheel.log"}
+  :figwheel {:css-dirs       ["resources/public/css"] ;; watch and update CSS
+             :ring-handler   user/http-handler
+             :server-logfile "log/figwheel.log"
+             :nrepl-port     7888}
 
   :scss {:builds
          {:develop {:source-dir "resources/scss/"
@@ -70,17 +72,17 @@
                              [com.cemerick/piggieback "0.2.1"]
                              [org.clojure/tools.nrepl "0.2.12"]]
 
-              :plugins [[lein-figwheel "0.5.2"]
-                        [lein-doo "0.1.6"]]}
+              :plugins      [[lein-figwheel "0.5.2"]
+                             [lein-doo "0.1.6"]]}
 
              :uberjar
              {:source-paths ^:replace ["src/clj"]
-              :hooks [leiningen.cljsbuild]
-              :omit-source true
-              :aot :all
-              :cljsbuild {:builds
-                          {:app
-                           {:source-paths ^:replace ["src/cljs"]
-                            :compiler
-                            {:optimizations :advanced
-                             :pretty-print false}}}}}})
+              :hooks        [leiningen.cljsbuild]
+              :omit-source  true
+              :aot          :all
+              :cljsbuild    {:builds
+                             {:app
+                              {:source-paths ^:replace ["src/cljs"]
+                               :compiler
+                               {:optimizations :advanced
+                                :pretty-print  false}}}}}})
