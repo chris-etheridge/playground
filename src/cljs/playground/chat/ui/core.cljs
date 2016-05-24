@@ -1,29 +1,43 @@
 (ns playground.chat.ui.core
   (:require [rum.core :as rum]
             [cljs.core.async :as async]
-            [datascript.core :as d])
+            [datascript.core :as d]
+            [playground.chat.ui.util :as util])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 ;; local temp state
 (def *app-state (atom {:messages {1 {:msg "Hello, world!"
-                                     :user/name "Chris"}
+                                     :user/name "Chris"
+                                     :user/id 5}
                                   2 {:msg "Good bye, world!"
-                                     :user/name "Tim"}
+                                     :user/name "Tim"
+                                     :user/id 10}
                                   3 {:msg "Nice memes."
-                                     :user/name "Reggie"}}
+                                     :user/name "Reggie"
+                                     :user/id 15}}
                        :user/name "Chris Etheridge"
-                       :user/active true}))
+                       :user/active true
+                       ;; me is my current ID
+                       :user/me 5}))
 
 ;;; event bus management
 (def event-bus (async/chan 0))
 
+;; dummy names
+(def names ["tom" "timmy" "kitty" "fishboy"])
+
 (defn next-msg-id []
   (inc (count (:messages @*app-state))))
 
+(defn me []
+  (:user/me @*app-state))
+
 (defn send-msg [chan text]
   (let [payload {:message {:id (next-msg-id)
-                           :user/name "Chris"
+                           :user/name (rand-nth names)
+                           :user/id (me)
                            :msg text}}]
+    (prn payload)
     (async/put! chan [:msg-send payload])))
 
 (defn prn-chan! [name chan]
@@ -40,7 +54,8 @@
 (defmethod action! :msg-send [[_ payload]]
   (swap! *app-state assoc-in [:messages (get-in payload [:message :id])]
          {:user/name (get-in payload [:message :user/name])
-          :msg (get-in payload [:message :msg])}))
+          :msg (get-in payload [:message :msg])
+          :user/id (get-in payload [:message :user/id])}))
 
 (defn parse-chan! [name chan]
   (go (loop []
@@ -53,45 +68,37 @@
 
 ;;; components
 
-(rum/defc message [[id msg]]
-  (let [user (:user/name msg)
-        text (:msg msg)]
-    [:.col-md-8.col-md-offset-2
-     [:.message__container {:class (when (= user "Chris") "me")}
-      [:.row
-       [:.text text]
-        [:.user user]]]]))
-
-(defn- textarea-keydown [callback]
-  (fn [e]
-    (if (and (== (.-keyCode e) 13)
-             (not (.-shiftKey e)))
-      (do
-        (callback (.. e -target -value))
-        (set! (.. e -target -value) "")
-        (.preventDefault e)))))
+(rum/defc message [[i {:keys [msg user/name user/id]}] user]
+  [:.col-md-8.col-md-offset-2
+   (prn "CURR: " user)
+   (prn "MSG: " id)
+   [:.message__container {:class (when (= user id) "me")}
+    [:.row
+     [:.text msg]
+     [:.user (if (= user id) "me" name)]]]])
 
 (rum/defc compose-pane [bus]
   [:#compose
    [:textarea.compose__text__area
     {:placeholder "Reply..."
      :auto-focus true
-     :on-key-down (textarea-keydown #(send-msg bus %))}]])
+     :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]])
 
-(rum/defc chat-pane < rum/reactive [ref]
-  (let [msgs (rum/react ref)]
+(rum/defc chat-pane < rum/reactive [msgs-ref user-ref]
+  (let [msgs (rum/react msgs-ref)]
     [:#chat-pane
      [:.row
       [:.col-md-12
-       (map message msgs)]]]))
+       (map #(message % (rum/react user-ref)) msgs)]]]))
 
 ;; window takes the event bus to put events onto
 ;; and the cursor it needs to watch
-(rum/defc window [event-bus cursor]
+(rum/defc window [event-bus]
   [:#chat-window
-   (chat-pane cursor)
+   (chat-pane (rum/cursor *app-state [:messages])
+              (rum/cursor *app-state [:user/me]))
    (compose-pane event-bus)])
 
 (defn start! [element]
-  (rum/mount (window event-bus (rum/cursor *app-state [:messages]))
+  (rum/mount (window event-bus)
              element))

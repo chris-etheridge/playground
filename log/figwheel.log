@@ -1288,3 +1288,413 @@ notifying browser that file changed:  out/playground/chat/ui/core.js
 sending changed CSS file: resources/public/css/chat.css
 sending changed CSS file: resources/public/css/chat.css
 sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.39 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/ui/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.025 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/ui/util.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.022 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/ui/util.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.028 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/ui/util.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.026 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/ui/util.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.024 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.377 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.31 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.34 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.292 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.303 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.304 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.314 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/ref at line 74 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.317 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/ref at line 74 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/cursor at line 84 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.327 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/ref at line 74 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/cursor at line 84 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.354 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/ref at line 74 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.322 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.292 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.374 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.329 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.307 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.404 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.296 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 45
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.248 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 45
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.201 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 45
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.183 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 45
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.272 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 45
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.196 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 57, column 46
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.202 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/u at line 60 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/u at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/u at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.368 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/u at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.346 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.306 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.375 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.411 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.303 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.304 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.31 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.327 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.319 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.313 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.3 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.312 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 62 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 62 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 65 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 67 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 68 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.379 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 66 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 68 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 69 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.367 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 66 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 68 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 69 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.621 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/id at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var playground.chat.ui.core/msg at line 63 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.362 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.309 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.325 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.309 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.317 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Unmatched delimiter ) on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 67, column 48
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.22 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.32 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.342 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.316 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Unmatched delimiter ) on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 102, column 2
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.246 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.173 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.306 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.328 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.311 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.353 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.322 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.384 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.347 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.331 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.329 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.328 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.326 seconds.[0m
