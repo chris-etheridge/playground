@@ -1698,3 +1698,78 @@ notifying browser that file changed:  out/playground/chat/ui/core.js
 [0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/chat/ui/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.326 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/db/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.231 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/db/untitled.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.024 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/db/util.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.022 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/db/util.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.246 seconds.[0m
