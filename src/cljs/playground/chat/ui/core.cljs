@@ -56,9 +56,11 @@
 (rum/defc message [[id msg]]
   (let [user (:user/name msg)
         text (:msg msg)]
-    [:#message
-     [:.text text]
-     [:.user user]]))
+    [:.col-md-8.col-md-offset-2
+     [:.message__container {:class (when (= user "Chris") "me")}
+      [:.row
+       [:.text text]
+        [:.user user]]]]))
 
 (defn- textarea-keydown [callback]
   (fn [e]
@@ -71,7 +73,7 @@
 
 (rum/defc compose-pane [bus]
   [:#compose
-   [:textarea#compose__text__area
+   [:textarea.compose__text__area
     {:placeholder "Reply..."
      :auto-focus true
      :on-key-down (textarea-keydown #(send-msg bus %))}]])
@@ -79,7 +81,9 @@
 (rum/defc chat-pane < rum/reactive [ref]
   (let [msgs (rum/react ref)]
     [:#chat-pane
-     (map message msgs)]))
+     [:.row
+      [:.col-md-12
+       (map message msgs)]]]))
 
 ;; window takes the event bus to put events onto
 ;; and the cursor it needs to watch

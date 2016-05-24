@@ -1206,3 +1206,85 @@ notifying browser that file changed:  out/playground/chat/ui/core.js
 [0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/chat/ui/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.348 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.445 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.435 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.385 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.323 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Unmatched delimiter ) on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 62, column 21
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.259 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.319 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.415 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.37 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.344 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.317 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.354 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.375 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.324 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.332 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.38 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.344 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.312 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.342 seconds.[0m
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css
+sending changed CSS file: resources/public/css/chat.css

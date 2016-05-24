@@ -57,8 +57,8 @@
              :server-logfile "log/figwheel.log"}
 
   :scss {:builds
-         {:develop {:source-dir "scss/"
-                    :dest-dir   "public/css/"
+         {:develop {:source-dir "resources/scss/"
+                    :dest-dir   "resources/public/css/"
                     :executable "sassc"
                     :args       ["-m" "-I" "scss/" "-t" "nested"]}}}
 
