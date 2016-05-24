@@ -54,7 +54,6 @@
 ;;; components
 
 (rum/defc message [[id msg]]
-  (prn msg)
   (let [user (:user/name msg)
         text (:msg msg)]
     [:#message
@@ -89,8 +88,6 @@
    (chat-pane cursor)
    (compose-pane event-bus)])
 
-(defn start [element]
+(defn start! [element]
   (rum/mount (window event-bus (rum/cursor *app-state [:messages]))
              element))
-
-(start js/document.body)

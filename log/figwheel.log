@@ -1192,3 +1192,17 @@ notifying browser that file changed:  out/playground/chat/ui/core.js
 [0mCompiling "resources/public/js/compiled/devcards.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/chat/ui/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 0.412 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.301 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.187 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.341 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.348 seconds.[0m

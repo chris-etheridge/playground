@@ -46,7 +46,7 @@
                        {:id "dev"
                         :source-paths ["src/cljs"]
                         :figwheel true
-                        :compiler {:main playground.core
+                        :compiler {:main playground.chat.core
                                    :asset-path "js/compiled/out"
                                    :output-to "resources/public/js/compiled/playground.js"
                                    :output-dir "resources/public/js/compiled/out"
