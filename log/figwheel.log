@@ -1113,3 +1113,8 @@ notifying browser that file changed:  out/playground/devcards/cards/chat.js
 [0mCompiling "resources/public/js/compiled/devcards.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/devcards/cards/chat.js
 [32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 0.452 seconds.[0m
+[0mCompiling "resources/public/js/compiled/devcards.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/chat.js
+[32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 0.706 seconds.[0m

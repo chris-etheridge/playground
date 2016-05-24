@@ -83,7 +83,15 @@
     [:#chat-pane
      (map message msgs)]))
 
+;; window takes the event bus to put events onto
+;; and the cursor it needs to watch
+(rum/defc window [event-bus cursor]
+  [:#chat-window
+   (chat-pane cursor)
+   (compose-pane event-bus)])
+
 ;;; devcards
+
 (defcard one-message
   "1 chat message, with no state."
   (message (first (:messages @*app-state))))
@@ -95,3 +103,7 @@
 (defcard compose-card
   "Compose area"
   (compose-pane event-bus))
+
+(defcard chat-pane
+  "Pane that shows chat messages with compose pane"
+  (window event-bus (rum/cursor *app-state [:messages])))
