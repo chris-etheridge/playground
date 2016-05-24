@@ -2,7 +2,8 @@
   (:require [rum.core :as rum]
             [cljs.core.async :as async]
             [datascript.core :as d]
-            [playground.chat.ui.util :as util])
+            [playground.chat.ui.util :as util]
+            [playground.chat.ui.events :as events])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 ;; local temp state
@@ -20,10 +21,11 @@
                        ;; me is my current ID
                        :user/me     5}))
 
-;;; event bus management
+;;; event bus
+;; event bus is an async channel
+;; events get dropped on and parsed
 (def event-bus (async/chan 0))
 
-;; dummy names
 (def names ["tom" "timmy" "kitty" "fishboy"])
 
 (defn next-msg-id []
@@ -37,14 +39,7 @@
                            :user/name (rand-nth names)
                            :user/id   (me)
                            :msg       text}}]
-    (prn payload)
     (async/put! chan [:msg-send payload])))
-
-(defn prn-chan! [name chan]
-  (go (loop []
-        (when-let [value (async/<! chan)]
-          (prn name value))
-        (recur))))
 
 (defmulti action! (fn [payload] (first payload)))
 
@@ -57,17 +52,7 @@
           :msg       (get-in payload [:message :msg])
           :user/id   (get-in payload [:message :user/id])}))
 
-(defn parse-chan! [name chan]
-  (go (loop []
-        (when-let [payload (async/<! chan)]
-          (prn name payload)
-          (action! payload))
-        (recur))))
-
-(parse-chan! :events-chan event-bus)
-
 ;;; components
-
 (rum/defc message [[i {:keys [msg user/name user/id]}] user]
   [:.message__container {:class (when (= user id) "me")}
    [:.row
@@ -101,5 +86,6 @@
 
 ;; mounts the main window on the specified element
 (defn start! [element]
+  (events/start-bus! event-bus :events-chan action!)
   (rum/mount (window event-bus)
              element))

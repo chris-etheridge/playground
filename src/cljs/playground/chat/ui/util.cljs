@@ -1,6 +1,8 @@
 (ns playground.chat.ui.util
   (:require [cognitect.transit :as t]))
 
+;;; UI keys util
+
 (defn on-textarea-keydown [callback]
   (fn [e]
     (if (and (== (.-keyCode e) 13)
@@ -9,6 +11,8 @@
         (callback (.. e -target -value))
         (set! (.. e -target -value) "")
         (.preventDefault e)))))
+
+;;; Local storage util
 
 (defn from-local-storage [key]
   "Returns an item from storage"
@@ -22,7 +26,7 @@
   "Remove an item from local storage"
   (.removeItem (.-localStorage js/window) key))
 
-(defn dump-state! [state key]
-  "Dumps the user's state to the browser local storage. Formats the data as a transit string"
-  (let [t (t/writer :json)]
-    (to-local-storage (t/write state) key)))
+#_(defn dump-state! [state key]
+    "Dumps the user's state to the browser local storage. Formats the data as a transit string"
+    (let [t (t/writer :json)]
+      (to-local-storage (t/write t state) key)))
