@@ -2031,3 +2031,24 @@ notifying browser that file changed:  resources/public/js/compiled/out/goog/deps
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  out/playground/chat/ui/events.js
 [32mSuccessfully compiled "resources/public/js/compiled/devcards.js" in 1.222 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (3) passed to playground.chat.ui.events/start-bus! at line 89 src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.632 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.39 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/events.cljs, line 5, column 46
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.154 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.events/debug at line 9 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/events.cljs
+WARNING: Wrong number of args (4) passed to playground.chat.ui.events/start-bus! at line 89 src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/events.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.483 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.287 seconds.[0m

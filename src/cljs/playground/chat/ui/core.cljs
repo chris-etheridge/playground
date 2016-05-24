@@ -37,7 +37,7 @@
 (defn send-msg [chan text]
   (let [payload {:message {:id        (next-msg-id)
                            :user/name (rand-nth names)
-                           :user/id   (me)
+                           :user/id   (rand-nth [(me) (range 20)])
                            :msg       text}}]
     (async/put! chan [:msg-send payload])))
 
