@@ -69,20 +69,18 @@
 ;;; components
 
 (rum/defc message [[i {:keys [msg user/name user/id]}] user]
-  [:.col-md-8.col-md-offset-2
-   (prn "CURR: " user)
-   (prn "MSG: " id)
-   [:.message__container {:class (when (= user id) "me")}
-    [:.row
-     [:.text msg]
-     [:.user (if (= user id) "me" name)]]]])
+  [:.message__container {:class (when (= user id) "me")}
+   [:.row
+    [:.text msg]
+    [:.user (if (= user id) "me" name)]]])
 
 (rum/defc compose-pane [bus]
   [:#compose
-   [:textarea.compose__text__area
-    {:placeholder "Reply..."
-     :auto-focus true
-     :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]])
+   [:.form-group
+    [:textarea.compose__text__area.form-control
+     {:placeholder "Reply..."
+      :auto-focus true
+      :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]]])
 
 (rum/defc chat-pane < rum/reactive [msgs-ref user-ref]
   (let [msgs (rum/react msgs-ref)]
@@ -95,9 +93,11 @@
 ;; and the cursor it needs to watch
 (rum/defc window [event-bus]
   [:#chat-window
-   (chat-pane (rum/cursor *app-state [:messages])
-              (rum/cursor *app-state [:user/me]))
-   (compose-pane event-bus)])
+   [:.col-md-8.col-md-offset-2
+    [:.row
+     (chat-pane (rum/cursor *app-state [:messages])
+                (rum/cursor *app-state [:user/me]))]
+    [:.row(compose-pane event-bus)]]])
 
 (defn start! [element]
   (rum/mount (window event-bus)
