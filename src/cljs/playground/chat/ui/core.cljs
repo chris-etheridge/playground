@@ -29,7 +29,7 @@
 (def names ["tom" "timmy" "kitty" "fishboy"])
 
 (defn next-msg-id []
-  (inc (count (:messages @*app-state))))
+  (-> @*app-state :messages count inc))
 
 (defn me []
   (:user/me @*app-state))
