@@ -82,7 +82,7 @@
     [:.row
      (chat-pane (rum/cursor *app-state [:messages])
                 (rum/cursor *app-state [:user/me]))]
-    [:.row(compose-pane event-bus)]]])
+    [:.row (compose-pane event-bus)]]])
 
 ;; mounts the main window on the specified element
 (defn start! [element]

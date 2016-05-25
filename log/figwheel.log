@@ -2052,3 +2052,12 @@ notifying browser that file changed:  out/playground/chat/ui/events.js
 [0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/chat/ui/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.287 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.events/debug at line 11 src/cljs/playground/chat/ui/events.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/events.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.399 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/events.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.359 seconds.[0m
