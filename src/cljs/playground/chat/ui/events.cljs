@@ -8,9 +8,7 @@
   "Starts the event bus loop. Calls 'f' when a value is put on the chan."
   (go (loop []
         (when-let [val (async/<! chan)]
-          (do
-            (prn name val)
-            (f val))
+          ;; (prn name val)
           (f val))
         (recur))))
 
