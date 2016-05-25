@@ -62,6 +62,9 @@
 
 (rum/defc compose-pane [bus]
   [:#compose
+   [:.btn.btn-primary {:on-click (fn [e]
+                                   (routes/go! :index)
+                                   (.preventDefault e))} "Click"]
    [:.form-group
     [:textarea.compose__text__area.form-control
      {:placeholder "Reply..."

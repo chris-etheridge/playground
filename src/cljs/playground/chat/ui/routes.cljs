@@ -18,14 +18,9 @@
   (swap! *routes assoc key opts))
 
 ;; go to a route
-(defn go! [route-kw debug?]
-  (when debug
-    (prn "going: " route-kw)
-    (prn "routes table: " @*routes)
-    (prn "route: " route)
-    (prn "ctor: " (:ctor route))
-    (prn "data: " (:data route)))
+(defn go! [route-kw]
+  (prn @*routes)
   (when-let [route (route-kw @*routes)]
-    (rum/mount ((:ctor route) (:data route)) (js/document.getElementById "app"))
+    (rum/mount ((:ctor route) (:data route nil)) (js/document.getElementById "app"))
     (when-let [startfn (:start route)]
       ((:start route) (:data route)))))
