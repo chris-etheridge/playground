@@ -6,9 +6,9 @@
 
 
 ;;; A route takes the following structure
-;;; {:name :keyword-to-refer-route
-;;;  :ctor rum.root.component.fn
-;;;  :start fn.start.start}
+;;; :kw-name {:data data.for.start.fn
+;;;           :ctor rum.root.component.fn
+;;;           :start fn.to.start}
 
 (defonce *routes (atom {}))
 
