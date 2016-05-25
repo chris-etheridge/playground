@@ -30,3 +30,9 @@
     "Dumps the user's state to the browser local storage. Formats the data as a transit string"
     (let [t (t/writer :json)]
       (to-local-storage (t/write t state) key)))
+
+;;; Browser history util
+
+(defn set-url! [url]
+  (set! js/window.location url))
+

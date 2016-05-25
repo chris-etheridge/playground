@@ -3,7 +3,8 @@
             [cljs.core.async :as async]
             [datascript.core :as d]
             [playground.chat.ui.util :as util]
-            [playground.chat.ui.events :as events])
+            [playground.chat.ui.events :as events]
+            [playground.chat.ui.routes :as routes])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 ;; local temp state
@@ -89,3 +90,8 @@
   (events/start-bus! event-bus :events-chan action!)
   (rum/mount (window event-bus)
              element))
+
+(routes/add-route :chat {:ctor  playground.chat.ui.core.window
+                         :data  playground.chat.ui.core.event-bus
+                         :start (fn [data]
+                                  (events/start-bus! data :events-chan action!))})
