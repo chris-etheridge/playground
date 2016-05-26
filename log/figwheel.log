@@ -2070,3 +2070,1962 @@ notifying browser that file changed:  out/playground/chat/ui/events.js
 [0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
 notifying browser that file changed:  out/playground/chat/ui/events.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.328 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mjava.lang.AssertionError: No ns form found in src/cljs/playground/chat/pages/index.cljs
+ at cljs.analyzer$parse_ns$fn__6690.invoke (analyzer.cljc:2761)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2712)
+    cljs.analyzer$parse_ns.invoke (analyzer.cljc:2703)
+    cljs.compiler$find_source.invoke (compiler.cljc:1418)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:674)
+    clojure.core/next (core.clj:64)
+    clojure.core$reduce1.invoke (core.clj:909)
+    clojure.core$set.invoke (core.clj:3960)
+    cljs.closure$add_dependency_sources.invoke (closure.clj:798)
+    cljs.closure$build.invoke (closure.clj:1939)
+    cljs.build.api$build.invoke (api.clj:210)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:24)
+    figwheel_sidecar.build_middleware.injection$hook$fn__20149.invoke (injection.clj:139)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__20484.invoke (notifications.clj:187)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__20560.invoke (clj_reloading.clj:115)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__20606.invoke (javascript_reloading.clj:60)
+    figwheel_sidecar.components.cljs_autobuild$eval20621$figwheel_start_and_end_messages__20624$fn__20626.invoke (cljs_autobuild.clj:47)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647$fn__20648.invoke (cljs_autobuild.clj:116)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__20647.invoke (cljs_autobuild.clj:114)
+    figwheel_sidecar.utils$sync_exec$fn__6740$fn__6741.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__6740.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4444.invoke (core.clj:1919)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.016 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.212 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.188 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.181 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.174 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.162 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.17 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.171 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.2 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Invalid token: : on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/pages/index.cljs, line 8, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.127 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.184 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.177 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.172 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Wrong number of args (1) passed to: analyzer/eval6095/fn--6096/pfn--6097 at line 3 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 3, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.123 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.193 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.188 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.173 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:8 at line 8 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 8, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.131 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:8 at line 8 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 8, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:16 at line 16 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 16, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.136 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:16 at line 16 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 16, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.123 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:17 at line 17 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 17, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.126 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:18 at line 18 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 18, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.141 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:18 at line 18 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 18, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.123 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:18 at line 18 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 18, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.128 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:18 at line 18 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 18, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.123 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:18 at line 18 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 18, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:20 at line 20 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 20, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:21 at line 21 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 21, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.128 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:21 at line 21 src/cljs/playground/chat/ui/routes.cljs on file src/cljs/playground/chat/ui/routes.cljs, line 21, column 5
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.125 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.013 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.033 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.012 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.012 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.009 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.011 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.009 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.01 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.027 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.025 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mclojure.lang.ExceptionInfo: Library name must be specified as a symbol in :require / :require-macros; offending spec: [:rum.core :as rum] at line 1 src/cljs/playground/chat/ui/routes.cljs
+ at clojure.core$ex_info.invoke (core.clj:4593)
+    cljs.analyzer$error.invoke (analyzer.cljc:580)
+    cljs.analyzer$error.invoke (analyzer.cljc:578)
+    cljs.analyzer$basic_validate_ns_spec.invoke (analyzer.cljc:1710)
+    cljs.analyzer$parse_require_spec.invoke (analyzer.cljc:1756)
+    clojure.lang.AFn.applyToHelper (AFn.java:171)
+    clojure.lang.AFn.applyTo (AFn.java:144)
+    clojure.core$apply.invoke (core.clj:636)
+    clojure.core$partial$fn__4533.doInvoke (core.clj:2512)
+    clojure.lang.RestFn.invoke (RestFn.java:408)
+    clojure.core$map$fn__4553.invoke (core.clj:2624)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.boundedLength (RT.java:1735)
+    clojure.lang.RestFn.applyTo (RestFn.java:130)
+    clojure.core$apply.invoke (core.clj:634)
+    cljs.analyzer$eval6391$fn__6393$fn__6398.invoke (analyzer.cljc:1943)
+    clojure.core.protocols/fn (protocols.clj:167)
+    clojure.core.protocols$fn__6478$G__6473__6487.invoke (protocols.clj:19)
+    clojure.core.protocols$seq_reduce.invoke (protocols.clj:31)
+    clojure.core.protocols/fn (protocols.clj:101)
+    clojure.core.protocols$fn__6452$G__6447__6465.invoke (protocols.clj:13)
+    clojure.core$reduce.invoke (core.clj:6519)
+    cljs.analyzer$eval6391$fn__6393.invoke (analyzer.cljc:1926)
+    clojure.lang.MultiFn.invoke (MultiFn.java:251)
+    cljs.analyzer$analyze_seq_STAR_.invoke (analyzer.cljc:2416)
+    cljs.analyzer$analyze_seq_STAR__wrap.invoke (analyzer.cljc:2421)
+    cljs.analyzer$analyze_seq.invoke (analyzer.cljc:2442)
+    cljs.analyzer$analyze_form.invoke (analyzer.cljc:2555)
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.024 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: when-let requires exactly 2 forms in binding vector in playground.chat.ui.routes:23 at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 23, column 3
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.138 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.436 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.463 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.43 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.466 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 89 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 96 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.417 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.374 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/data at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.417 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.418 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.315 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.196 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.314 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.313 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.351 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.295 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.308 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.309 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.301 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.293 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.313 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.305 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.3 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.29 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.271 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.321 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.305 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.296 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.316 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.285 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.346 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.296 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.276 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.277 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.275 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.282 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.272 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.317 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.311 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 23 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.356 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.364 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.365 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Unmatched delimiter ) on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 32, column 65
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.098 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.366 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.368 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.348 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.35 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.378 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.408 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.358 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.301 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.296 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.199 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.198 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.375 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 25 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 26 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Use of undeclared Var playground.chat.ui.routes/route at line 27 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.394 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.328 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.333 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.343 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 21, column 36
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.104 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 21, column 38
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.108 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/debug? at line 24 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.381 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+WARNING: Wrong number of args (1) passed to playground.chat.ui.routes/go! at line 11 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.341 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.287 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.312 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.routes/route-key at line 22 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.327 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.3 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.277 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.302 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.269 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.191 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.ui.core/root at line 102 src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.296 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.267 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "when-let" should be a vector at line 21 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 21, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.11 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.186 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0mANALYSIS ERROR: Parameter declaration "when-let" should be a vector at line 21 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/routes.cljs, line 21, column 1
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.104 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Wrong number of args (2) passed to playground.chat.ui.routes/go! at line 66 src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.314 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.275 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.283 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.274 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.314 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.271 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var playground.chat.core/action! at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.246 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var playground.chat.core/action! at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.252 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 17 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 17 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var playground.chat.core/action! at line 17 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.236 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.195 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.196 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.206 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.195 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.204 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.19 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.216 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: events, could not locate events.cljs, events.cljc, or Closure namespace "" at line 15 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var events/start-bus! at line 15 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+WARNING: Use of undeclared Var playground.chat.core/action! at line 15 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.24 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.chat.core/action! at line 16 /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/core.cljs
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.234 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.202 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.202 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: ui, could not locate ui.cljs, ui.cljc, or Closure namespace "" at line 100 src/cljs/playground/chat/ui/core.cljs
+WARNING: Use of undeclared Var ui/action! at line 100 src/cljs/playground/chat/ui/core.cljs
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.31 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.507 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.189 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: index, could not locate index.cljs, index.cljc, or Closure namespace "" at line 12 src/cljs/playground/chat/ui/pages/index.cljs
+WARNING: Use of undeclared Var index/root at line 12 src/cljs/playground/chat/ui/pages/index.cljs
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.25 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+WARNING: No such namespace: index, could not locate index.cljs, index.cljc, or Closure namespace "" at line 13 src/cljs/playground/chat/ui/pages/index.cljs
+WARNING: Use of undeclared Var index/root at line 13 src/cljs/playground/chat/ui/pages/index.cljs
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.241 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.196 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/core.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.194 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+notifying browser that file changed:  out/playground/chat/ui/pages/index.js
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.22 seconds.[0m
