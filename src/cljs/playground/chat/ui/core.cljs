@@ -62,14 +62,15 @@
 
 (rum/defc compose-pane [bus]
   [:#compose
-   [:.btn.btn-primary {:on-click (fn [e]
-                                   (routes/go! :index)
-                                   (.preventDefault e))} "Click"]
    [:.form-group
     [:textarea.compose__text__area.form-control
      {:placeholder "Reply..."
       :auto-focus  true
-      :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]]])
+      :on-key-down (util/on-textarea-keydown #(send-msg bus %))}]]
+   [:.hr]
+   [:.btn.btn-primary {:on-click (fn [e]
+                                   (routes/go! :index)
+                                   (.preventDefault e))} "Test for routing"]])
 
 (rum/defc chat-pane < rum/reactive [msgs-ref user-ref]
   (let [msgs (rum/react msgs-ref)]

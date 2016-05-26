@@ -40,7 +40,7 @@
                         :source-paths ["src/cljs"]
                         :figwheel     {:devcards true}
                         :compiler     {:main                 playground.devcards.devcards
-                                       :asset-path           "js/compiled/out"
+                                       :asset-path           "js/compiled/out/devcards"
                                        :output-to            "resources/public/js/compiled/devcards.js"
                                        :output-dir           "resources/public/js/compiled/out"
                                        :source-map-timestamp true}}
@@ -63,8 +63,6 @@
                     :dest-dir   "resources/public/css/"
                     :executable "sassc"
                     :args       ["-m" "-I" "scss/" "-t" "nested"]}}}
-
-  :doo {:build "test"}
 
   :profiles {:dev
              {:dependencies [[figwheel "0.5.2"]
