@@ -16,11 +16,12 @@
                  [datascript "0.15.0"]
                  [com.cognitect/transit-cljs "0.8.237"]
                  [org.clojure/core.async "0.2.374"]
-                 [devcards "0.2.1"]]
+                 [devcards "0.2.1" :exclusions [lein-figwheel]]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]
-            [lein-scss "0.2.4"]]
+            [lein-scss "0.2.4"]
+            [lein-figwheel "0.5.3-2"]]
 
   :min-lein-version "2.6.1"
 
@@ -41,8 +42,8 @@
                         :figwheel     {:devcards true}
                         :compiler     {:main                 playground.devcards.devcards
                                        :asset-path           "js/compiled/out/devcards"
-                                       :output-to            "resources/public/js/compiled/devcards.js"
-                                       :output-dir           "resources/public/js/compiled/out"
+                                       :output-to            "resources/public/js/compiled/devcards/devcards.js"
+                                       :output-dir           "resources/public/js/compiled/out/devcards"
                                        :source-map-timestamp true}}
                        {:id           "dev"
                         :source-paths ["src/cljs"]

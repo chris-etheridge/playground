@@ -6,13 +6,13 @@
                    [devcards.core :refer [defcard]]))
 
 ;; local temp state
-(def *app-state (atom {:messages {1 {:msg "Hello, world!"
-                                     :user/name "Chris"}
-                                  2 {:msg "Good bye, world!"
-                                     :user/name "Tim"}
-                                  3 {:msg "Nice memes."
-                                     :user/name "Reggie"}}
-                       :user/name "Chris Etheridge"
+(def *app-state (atom {:messages    {1 {:msg       "Hello, world!"
+                                        :user/name "Chris"}
+                                     2 {:msg       "Good bye, world!"
+                                        :user/name "Tim"}
+                                     3 {:msg       "Nice memes."
+                                        :user/name "Reggiesssss"}}
+                       :user/name   "Chris Etheridge"
                        :user/active true}))
 
 ;;; event bus management
@@ -22,9 +22,9 @@
   (inc (count (:messages @*app-state))))
 
 (defn send-msg [chan text]
-  (let [payload {:message {:id (next-msg-id)
+  (let [payload {:message {:id        (next-msg-id)
                            :user/name "Chris"
-                           :msg text}}]
+                           :msg       text}}]
     (async/put! chan [:msg-send payload])))
 
 (defn prn-chan! [name chan]
@@ -41,7 +41,7 @@
 (defmethod action! :msg-send [[_ payload]]
   (swap! *app-state assoc-in [:messages (get-in payload [:message :id])]
          {:user/name (get-in payload [:message :user/name])
-          :msg (get-in payload [:message :msg])}))
+          :msg       (get-in payload [:message :msg])}))
 
 (defn parse-chan! [name chan]
   (go (loop []
@@ -75,7 +75,7 @@
   [:#compose
    [:textarea#compose__text__area
     {:placeholder "Reply..."
-     :auto-focus true
+     :auto-focus  true
      :on-key-down (textarea-keydown #(send-msg bus %))}]])
 
 (rum/defc chat-pane < rum/reactive [ref]
