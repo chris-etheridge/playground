@@ -15,3 +15,6 @@
 (defn set-url! [url]
   (set! js/window.location url))
 
+
+(defn el-by-id [id]
+  (js/document.getElementById id))

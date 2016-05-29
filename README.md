@@ -2,19 +2,20 @@
 
 ## What is this
 
-A playground for me to learning all things Clojure and ClojureScript. I am working towards making this into a chat web app.
+A playground for me to learning all things Clojure and ClojureScript.
+This is a collection of test apps that I will use to learn.
 
-## Development
+## Running
 
-Open a terminal and type `lein repl` to start a Clojure REPL
-(interactive prompt).
+To run, use `lein figwheel` and the build name. Example:
 
-In the REPL, type
-
-```clojure
-(run)
-(browser-repl)
+```clj
+lein figwheel devcards chat todo
 ```
+
+Then open up `localhost:3449/BUILD.html`. Example:
+
+``` localhost:3449/chat.html```
 
 ## License
 
@@ -22,7 +23,3 @@ Copyright © 2016 FIXME
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
-
-## Chestnut
-
-Created with [Chestnut](http://plexus.github.io/chestnut/) 0.11.0 (3b671cf8).

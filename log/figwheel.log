@@ -4150,3 +4150,51 @@ notifying browser that file changed:  out/playground/chat/core.js
 [32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.271 seconds.[0m
 notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
 notifying browser that file changed:  out/playground/chat/core.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.205 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/chat/cljs_deps.js
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.258 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.176 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/todo/cljs_deps.js
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.341 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.27 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.185 seconds.[0m
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.168 seconds.[0m
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.276 seconds.[0m
+notifying browser that file changed:  out/playground/todo/core.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.284 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.368 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.29 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.383 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.258 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.252 seconds.[0m
+notifying browser that file changed:  out/playground/util.js
