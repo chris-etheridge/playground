@@ -64,7 +64,7 @@
                         :figwheel     true
                         :compiler     {:main                 playground.chat.core
                                        :asset-path           "js/compiled/out/chat"
-                                       :output-to            "resources/public/js/todo/compiled/playground.js"
+                                       :output-to            "resources/public/js/compiled/chat/chat.js"
                                        :output-dir           "resources/public/js/compiled/out/chat"
                                        :source-map-timestamp true}}
                        {:id           "todo"

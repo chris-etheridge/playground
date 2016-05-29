@@ -8,7 +8,7 @@
   [:h1 "This is the root page"]
   [:.btn.btn-primary {:on-click (fn [e]
                                   (routes/go! :chat)
-                                  (.preventDefault e))}])
+                                  (.preventDefault e))} "Back to chat"])
 
 (routes/add-route :index {:ctor root
                           :data nil})

@@ -1,8 +1,7 @@
 (ns playground.chat.core
   (:require [playground.chat.ui.core :as ui]
-            [playground.chat.ui.routes :as routes]
-            [playground.chat.ui.pages.index :as index]
-            [playground.chat.ui.events :as events]))
+            [playground.routes :as routes]
+            [playground.chat.ui.pages.index]))
 
 (enable-console-print!)
 

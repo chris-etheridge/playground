@@ -1,4 +1,5 @@
-(ns playground.routes)
+(ns playground.routes
+  (:require [rum.core :as rum]))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Routes
