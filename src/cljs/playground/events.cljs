@@ -1,4 +1,4 @@
-(ns playground.chat.ui.events
+(ns playground.events
   (:require [cljs.core.async :as async])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 

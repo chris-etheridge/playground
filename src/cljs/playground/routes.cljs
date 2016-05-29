@@ -1,5 +1,4 @@
-(ns playground.chat.ui.routes
-  (:require [rum.core :as rum]))
+(ns playground.routes)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Routes

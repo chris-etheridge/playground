@@ -1,6 +1,6 @@
 (ns playground.chat.ui.pages.index
   (:require [rum.core :as rum]
-            [playground.chat.ui.routes :as routes]))
+            [playground.routes :as routes]))
 
 ;;; Index page
 

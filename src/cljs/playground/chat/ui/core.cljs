@@ -2,9 +2,9 @@
   (:require [rum.core :as rum]
             [cljs.core.async :as async]
             [datascript.core :as d]
-            [playground.chat.ui.util :as util]
-            [playground.chat.ui.events :as events]
-            [playground.chat.ui.routes :as routes])
+            [playground.util :as util]
+            [playground.events :as events]
+            [playground.routes :as routes])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
 ;; local temp state
