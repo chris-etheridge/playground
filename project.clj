@@ -12,6 +12,7 @@
                  [ring.middleware.logger "0.5.0"]
                  [compojure "1.5.0"]
                  [environ "1.0.2"]
+                 [datascript "0.15.0"]
                  [rum "0.8.3"]
                  [datascript "0.15.0"]
                  [com.cognitect/transit-cljs "0.8.237"]
