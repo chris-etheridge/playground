@@ -4198,3 +4198,117 @@ notifying browser that file changed:  out/playground/util.js
 [0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
 [32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.252 seconds.[0m
 notifying browser that file changed:  out/playground/util.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/todo/todo.js" in 0.15 seconds.[0m
+[31mCompiling "resources/public/js/compiled/todo/todo.js" failed.
+[0m[31mANALYSIS ERROR: No such namespace: playground.devcards.cards.todo, could not locate playground/devcards/cards/todo.cljs, playground/devcards/cards/todo.cljc, or Closure namespace "playground.devcards.cards.todo" in file src/cljs/playground/devcards/devcards.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/devcards/devcards.js" in 0.189 seconds.[0m
+[31mCompiling "resources/public/js/compiled/devcards/devcards.js" failed.
+[0m[31mANALYSIS ERROR: No such namespace: playground.devcards.cards.todo, could not locate playground/devcards/cards/todo.cljs, playground/devcards/cards/todo.cljc, or Closure namespace "playground.devcards.cards.todo" in file src/cljs/playground/devcards/devcards.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/chat/chat.js" in 0.156 seconds.[0m
+[31mCompiling "resources/public/js/compiled/chat/chat.js" failed.
+[0m[31mANALYSIS ERROR: No such namespace: playground.devcards.cards.todo, could not locate playground/devcards/cards/todo.cljs, playground/devcards/cards/todo.cljc, or Closure namespace "playground.devcards.cards.todo" in file src/cljs/playground/devcards/devcards.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.266 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/chat/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.175 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/todo/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.177 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/todo/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.172 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/chat/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.26 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.279 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.175 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.172 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.27 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.189 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/todo/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.167 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/chat/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.277 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.182 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.385 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.devcards.cards.todo/defcard at line 7 src/cljs/playground/devcards/cards/todo.cljs
+WARNING: Use of undeclared Var playground.devcards.cards.todo/todo-card at line 7 src/cljs/playground/devcards/cards/todo.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.183 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.devcards.cards.todo/defcard at line 7 src/cljs/playground/devcards/cards/todo.cljs
+WARNING: Use of undeclared Var playground.devcards.cards.todo/todo-card at line 7 src/cljs/playground/devcards/cards/todo.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.296 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+WARNING: Use of undeclared Var playground.devcards.cards.todo/defcard at line 7 src/cljs/playground/devcards/cards/todo.cljs
+WARNING: Use of undeclared Var playground.devcards.cards.todo/todo-card at line 7 src/cljs/playground/devcards/cards/todo.cljs
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.186 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/todo/todo.js" in 0.138 seconds.[0m
+[31mCompiling "resources/public/js/compiled/todo/todo.js" failed.
+[0m[31mANALYSIS ERROR: Invalid :refer, var macro devcards.core/defcards does not exist in file src/cljs/playground/devcards/cards/todo.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/chat/chat.js" in 0.115 seconds.[0m
+[31mCompiling "resources/public/js/compiled/chat/chat.js" failed.
+[0m[31mANALYSIS ERROR: Invalid :refer, var macro devcards.core/defcards does not exist in file src/cljs/playground/devcards/cards/todo.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/devcards/devcards.js" in 0.137 seconds.[0m
+[31mCompiling "resources/public/js/compiled/devcards/devcards.js" failed.
+[0m[31mANALYSIS ERROR: Invalid :refer, var macro devcards.core/defcards does not exist in file src/cljs/playground/devcards/cards/todo.cljs on file null, line null, column null[0m
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 0.162 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 0.149 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.246 seconds.[0m
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/chat/chat.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/chat/chat.js" in 4.825 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/chat/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.279 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
+[0mCompiling "resources/public/js/compiled/todo/todo.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/todo/todo.js" in 4.635 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/todo/cljs_deps.js
+notifying browser that file changed:  out/playground/devcards/cards/todo.js
