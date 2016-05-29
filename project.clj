@@ -13,11 +13,24 @@
                  [compojure "1.5.0"]
                  [environ "1.0.2"]
                  [datascript "0.15.0"]
-                 [rum "0.8.3"]
+                 [rum "0.8.3"
+                  :exclusions [cljsjs/react
+                               cljsjs/react-dom
+                               cljsjs/react-dom-server]]
+                 [cljsjs/react "15.0.2-0"]
+                 [cljsjs/react-dom "15.0.2-0"]
+                 [cljsjs/react-dom-server "15.0.2-0"]
                  [datascript "0.15.0"]
                  [com.cognitect/transit-cljs "0.8.237"]
                  [org.clojure/core.async "0.2.374"]
-                 [devcards "0.2.1" :exclusions [lein-figwheel]]]
+                 [datascript-transit "0.2.0"]
+                 [cljsjs/react "15.1.0-0"]
+                 [cljsjs/react-dom "15.1.0-0"]
+                 [devcards "0.2.1-7"
+                  :exclusions [cljsjs/react
+                               cljsjs/react-dom
+                               cljsjs/react-dom-server
+                               lein-figwheel]]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]
@@ -46,13 +59,21 @@
                                        :output-to            "resources/public/js/compiled/devcards/devcards.js"
                                        :output-dir           "resources/public/js/compiled/out/devcards"
                                        :source-map-timestamp true}}
-                       {:id           "dev"
+                       {:id           "chat"
                         :source-paths ["src/cljs"]
                         :figwheel     true
                         :compiler     {:main                 playground.chat.core
-                                       :asset-path           "js/compiled/out"
-                                       :output-to            "resources/public/js/compiled/playground.js"
-                                       :output-dir           "resources/public/js/compiled/out"
+                                       :asset-path           "js/compiled/out/chat"
+                                       :output-to            "resources/public/js/todo/compiled/playground.js"
+                                       :output-dir           "resources/public/js/compiled/out/chat"
+                                       :source-map-timestamp true}}
+                       {:id           "todo"
+                        :source-paths ["src/cljs"]
+                        :figwheel     true
+                        :compiler     {:main                 playground.todo.core
+                                       :asset-path           "js/compiled/out/todo"
+                                       :output-to            "resources/public/js/compiled/todo/todo.js"
+                                       :output-dir           "resources/public/js/compiled/out/todo"
                                        :source-map-timestamp true}}]}
 
   :figwheel {:css-dirs       ["resources/public/css"] ;; watch and update CSS
