@@ -4,14 +4,12 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Routes
 
-
 ;;; A route takes the following structure
 ;;; :kw-name {:data data.for.start.fn
 ;;;           :ctor rum.root.component.fn
 ;;;           :start fn.to.start}
 
 (defonce *routes (atom {}))
-
 
 ;; adds a route to the routing table
 (defn add-route [key opts]

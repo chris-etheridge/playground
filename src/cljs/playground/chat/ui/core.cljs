@@ -90,12 +90,12 @@
     [:.row (compose-pane event-bus)]]])
 
 ;; mounts the main window on the specified element
-(defn start! [element]
-  (events/start-bus! event-bus :events-chan action!)
-  (rum/mount (window event-bus)
-             element))
+#_(defn start! [element]
+    (events/start-bus! event-bus :events-chan action!)
+    (rum/mount (window event-bus)
+               element))
 
-(routes/add-route :chat {:ctor  playground.chat.ui.core.window
-                         :data  playground.chat.ui.core.event-bus
+(routes/add-route :chat {:ctor  window
+                         :data  event-bus
                          :start (fn [data]
                                   (events/start-bus! data :events-chan action!))})

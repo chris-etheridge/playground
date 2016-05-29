@@ -4060,3 +4060,57 @@ notifying browser that file changed:  out/playground/devcards/cards/chat.js
 notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
 notifying browser that file changed:  out/playground/devcards/cards/chat.js
 [32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.188 seconds.[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.714 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.408 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/devcards/cljs_deps.js
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.254 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.333 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.351 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.25 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.326 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.364 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.35 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.266 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/routes.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/playground.js" in 0.179 seconds.[0m
+[31mCompiling "resources/public/js/compiled/playground.js" failed.
+[0m[31mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 69, column 65[0m
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[31mFailed to compile "resources/public/js/compiled/devcards/devcards.js" in 0.23 seconds.[0m
+[31mCompiling "resources/public/js/compiled/devcards/devcards.js" failed.
+[0m[31mERROR: Map literal must contain an even number of forms on file /Users/chrisetheridge/code/clojure/ui-programming/playground/src/cljs/playground/chat/ui/core.cljs, line 69, column 65[0m
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.282 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.414 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/core.js
+[0mCompiling "resources/public/js/compiled/playground.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/playground.js" in 0.412 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/events.js
+[0mCompiling "resources/public/js/compiled/devcards/devcards.js" from ["src/cljs"]...
+[32mSuccessfully compiled "resources/public/js/compiled/devcards/devcards.js" in 0.482 seconds.[0m
+notifying browser that file changed:  out/playground/chat/ui/events.js
